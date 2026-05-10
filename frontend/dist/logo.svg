@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" role="img" aria-label="Fanvora">
+  <defs>
+    <linearGradient id="fv-mark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B2D6B"/>
+      <stop offset="100%" stop-color="#3D0A33"/>
+    </linearGradient>
+    <linearGradient id="fv-mark-heart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4D78A"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="fv-word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B2D6B"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark -->
+  <g transform="translate(20,20)">
+    <rect width="200" height="200" rx="46" fill="url(#fv-mark-bg)"/>
+    <g transform="translate(0,0)" fill="url(#fv-mark-heart)">
+      <circle cx="73" cy="79" r="34"/>
+      <circle cx="127" cy="79" r="34"/>
+      <path d="M41 91 L100 165 L159 91 Z"/>
+    </g>
+    <path d="M100 92 L106 109 L122 115 L106 121 L100 138 L94 121 L78 115 L94 109 Z" fill="#3D0A33" opacity="0.92"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="250" y="155"
+        font-family="Playfair Display, Georgia, serif"
+        font-size="128"
+        font-weight="700"
+        fill="url(#fv-word)"
+        letter-spacing="-2">Fanvora</text>
+</svg>
